@@ -1,11 +1,12 @@
-import "./App.css";
 import axios from "axios";
-import Playlist from "./pages/playlist/Index";
+import Playlist from "./pages/Playlist/Index";
 
 function App() {
   return (
     <div className="App">
-      <Playlist />
+      <section className="container mx-16">
+        <Playlist />
+      </section>
     </div>
   );
 }
